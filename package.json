@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "ionic-native": "https://github.com/ionic-team/ionic-native/tarball/v3.5.0"
   }
 }
