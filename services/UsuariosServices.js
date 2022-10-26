@@ -33,6 +33,22 @@ function cadastrar(objeto){
 
 function detalhar(idUsuario){
 // Seu código aqui
+
+const detalharUsuario = usuarios => {
+    return{
+        nome: usuarios.nome,
+        email: usuarios.email,
+        formaDePagameto: usuarios.FormaDePagamento
+    }
+    // const formasDePagamento = usuarios => {
+    //     return{
+    //         formaDePagameto: usuarios.formasDePagamento
+    //     }
+}
+let usuarioDetalhado = usuarios.map(detalharUsuario);
+let formaDePagameto = usuarios.map(formasDePagamento)
+console.table(usuarioDetalhado)
+console.table(formaDePagameto)
 }
 
 function remover(idDoUsuarioParaRemover){
